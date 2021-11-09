@@ -11,3 +11,7 @@ bin/kafka-console-consumer.sh --topic quickstart-events --from-beginning --boots
 
 
 --bootstrap-server localhost:9092
+
+Delete a Topic:
+--------------
+bin/kafka-topics.sh --delete --topic quickstart-events --bootstrap-server localhost:9092
